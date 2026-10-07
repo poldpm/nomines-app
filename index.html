@@ -29,7 +29,7 @@
 <script>
   const TAULER = 'https://claude.ai/artifact/H5KeS8MekvG4R6KoXLfnzJ';
   // Obert des de la icona instal·lada: salta directament al tauler.
-  if (matchMedia('(display-mode: standalone)').matches || navigator.standalone) location.replace(TAULER);
+  if (matchMedia('(display-mode: standalone)').matches || navigator.standalone || /[?&]app=1/.test(location.search)) location.replace(TAULER);
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
   let prompt;
   addEventListener('beforeinstallprompt', e => { e.preventDefault(); prompt = e; document.getElementById('install').hidden = false; });
