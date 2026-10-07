@@ -1,7 +1,9 @@
 {
   "name": "Les meves nòmines",
   "short_name": "Nòmines",
-  "start_url": "./",
+  "start_url": "./?app=1",
+  "scope": "./",
+  "id": "./",
   "display": "standalone",
   "background_color": "#1d5d8c",
   "theme_color": "#1d5d8c",
