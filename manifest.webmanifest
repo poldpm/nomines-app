@@ -1,14 +1,15 @@
 {
+  "id": "/nomines-app/les-meves-nomines-v2",
   "name": "Les meves nòmines",
   "short_name": "Nòmines",
-  "start_url": "./?app=1",
-  "scope": "./",
-  "id": "./",
+  "start_url": "/nomines-app/?app=1",
+  "scope": "/nomines-app/",
   "display": "standalone",
   "background_color": "#1d5d8c",
   "theme_color": "#1d5d8c",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    { "src": "/nomines-app/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/nomines-app/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/nomines-app/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
